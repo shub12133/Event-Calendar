@@ -72,7 +72,7 @@ class NavigationBar extends Component {
               style={{ color: 'white', textDecoration: 'none' }}
               href='/about'
             >
-              Home
+              About
             </NavLink>
             <NavLink
               style={{ color: 'white', textDecoration: 'none' }}
