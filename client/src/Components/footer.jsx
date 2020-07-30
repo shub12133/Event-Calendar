@@ -7,7 +7,7 @@ export default class about extends Component {
         <p className='w3-medium'>
           Powered by{' '}
           <a
-            // href='https://github.com/NemanjaKovacevic15'
+            href='https://github.com/shub12133'
             target='_blank'
             rel='noopener noreferrer'
           >
