@@ -1,0 +1,4 @@
+{
+  "mongoURI":"mongodb+srv://shub121:Shub@12133@cluster0-6pr0w.gcp.mongodb.net/handmad?retryWrites=true&w=majority",
+  "jwtSecret": "mysecretkeytoken"
+}

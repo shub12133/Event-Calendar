@@ -1,0 +1,31 @@
+{
+  "name": "scheduler-app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.15.1"
+  },
+  "description": "Scheduler aplikacija",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client \"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Nemanja Kovacevic",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.0.0",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.12",
+    "updates": "^10.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
